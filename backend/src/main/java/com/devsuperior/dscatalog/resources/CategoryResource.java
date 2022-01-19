@@ -16,6 +16,7 @@ import com.devsuperior.dscatalog.services.CategoryService;
 @RestController 
 @RequestMapping (value = "/categories")
 public class CategoryResource {
+	
 @Autowired
 	private CategoryService service;
 	
